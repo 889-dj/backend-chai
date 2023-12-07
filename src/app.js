@@ -19,7 +19,7 @@ app.use(cookieParser())
 import userRouter from './routes/user.routes.js'
 
 // routes declaration
-app.use("/api/v1/user",userRouter) // industry std to name routes => /api/versionNo./resourceName
+app.use("/api/v1/users",userRouter) // industry std to name routes => /api/versionNo./resourceName
 
 
 export {app}
